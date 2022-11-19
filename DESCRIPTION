@@ -28,6 +28,7 @@ Imports:
     purrr,
     readr,
     stringr,
+    tidyr,
     utils
 URL: https://github.com/yueliu1115/MutMaper
 BugReports: https://github.com/yueliu1115/MutMaper/issues
