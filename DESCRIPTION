@@ -1,12 +1,33 @@
 Package: MutMaper
-Title: What the Package Does (One Line, Title Case)
+Title: an R package for Mutmap Analysis
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    c(person("Yue", "Liu", ,"yueliu1115@163.com", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-6180-8068")),
+      person("Yanzhuo", "Li", ,"lyz857985883@163.com", role = c("cph")),
+      person("Jianhao", "Chen", ,"17771816925@163.com", role = c("cph")),
+      person("Jiazheng", "Wang", ,"614380155@qq.com", role = c("cph"))
+      )
+Description: MutMaper is a tool for MutMap analysis in BSA-seq.
+  Including read vcf file, 
+  vcf data cleannig,
+  compute the SNP-index,
+  compute the ED value,
+  set a fixed windows in chromosome to statitic SNP number,SNP-index and ED value,
+  plot result using ggplot2
+  Creating One step to analysis MutMap
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.0
+Imports: 
+    cowplot,
+    dplyr,
+    ggplot2,
+    magrittr,
+    purrr,
+    readr,
+    stringr,
+    utils
+URL: https://github.com/yueliu1115/MutMaper
+BugReports: https://github.com/yueliu1115/MutMaper/issues
